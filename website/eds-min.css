@@ -1,0 +1,17 @@
+
+.md-grid {
+  max-width: initial;
+}
+
+.md-typeset img, .md-typeset svg {
+  max-width: initial;
+}
+
+:root>* {
+  --md-primary-fg-color:        #037AA6;
+  --md-primary-fg-color--light: #0099d1;
+  --md-primary-fg-color--dark:  #00658a;
+  --md-code-hl-color:           #02607E;
+  --md-accent-fg-color:         #02607E;
+  --md-footer-bg-color:         #037AA6;
+}
