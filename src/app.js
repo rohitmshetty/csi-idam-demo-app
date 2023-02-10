@@ -17,7 +17,7 @@ app.get('/processAuthCode/:code', async (req, res) => {
         client_id: IDAM_CONFIG.applicationClientId,
         grant_type: "authorization_code",
         code: req.params.code,
-        redirect_uri: "http://localhost:5000/login-redirect/login-redirect.html",
+        redirect_uri: "https://csi-idam-demo-app.azurewebsites.net/login-redirect/login-redirect.html",
         client_secret: IDAM_CONFIG.applicationClientSecret
     }
 	console.info('applicationClientId: '+IDAM_CONFIG.applicationClientId);
