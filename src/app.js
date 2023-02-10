@@ -6,7 +6,7 @@ const jwt_decode = require("jwt-decode");
 var IDAM_CONFIG = require('../website/idam-config.json');
 
 const app = express()
-const port = 5000
+const port = 8080
 
 app.use(express.static('website'));
 
