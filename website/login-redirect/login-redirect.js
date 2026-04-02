@@ -12,7 +12,7 @@ function processIdamAuthCode(){
     document.getElementById('load-user-info').style.display = 'none';
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = handleCodeExchange;
-    xhttp.open("GET", "https://csi-idam-demo-app.azurewebsites.net/processAuthCode/" + code, true);
+    xhttp.open("GET", "https://csi-idam-demo-app-01-hpg8c7g6apbbbqbm.eastus-01.azurewebsites.net/processAuthCode/" + code, true);
     xhttp.send();
 }
 
