@@ -22,7 +22,7 @@ function redirectUserToIdamLoginPage(){
         client_id: IDAM_CONFIG.applicationClientId,
         response_type: 'code',
         scope: 'openid+email+profile',
-        redirect_uri: 'https://csi-idam-demo-app.azurewebsites.net/login-redirect/login-redirect.html',
+        redirect_uri: 'https://csi-idam-demo-app-01-hpg8c7g6apbbbqbm.eastus-01.azurewebsites.net/login-redirect/login-redirect.html',
         idamLoginURL: IDAM_CONFIG.idamUrl,
         authMethod: 'oauth2/authorize',
         state: 'ExampleStateString'
